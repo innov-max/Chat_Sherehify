@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SplashScreen">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:layout_marginTop="100dp"
+       android:layout_gravity="center"
+       android:id="@+id/profile_image"
+       android:layout_width="200dp"
+       android:layout_height="300dp"
+       android:src="@drawable/sherehify_logo"
+       app:civ_border_width="2dp"
+       app:civ_border_color="@color/white"/>
+
+   <TextView
+       android:shadowColor="@color/white"
+       android:layout_marginBottom="30dp"
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:textSize="48sp"
+       android:textColor="@color/black"
+      android:textAlignment="center"
+      android:textStyle="bold|normal"
+      android:text="@string/sherehify"/>
+
+   <ProgressBar
+       android:layout_width="96dp"
+       android:layout_height="96dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="20dp"
+      android:visibility="invisible"/>
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="personalized secure chats &amp; sessions"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:textStyle="bold|normal" />
+
+</LinearLayout>
