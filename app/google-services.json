@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652287638928",
+    "project_id": "sherehify-92eca",
+    "storage_bucket": "sherehify-92eca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652287638928:android:e7ca09f0d76396955e8715",
+        "android_client_info": {
+          "package_name": "com.innov.sherehify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652287638928-6ap3hq8ltlesklkj6bv3pkgjq3nvr83i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjoBvFg-j-230qDJIwsPp-ofmjbm18nAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652287638928-6ap3hq8ltlesklkj6bv3pkgjq3nvr83i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

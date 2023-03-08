@@ -11,12 +11,22 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_marginTop="70dp"
         android:layout_gravity="center"
-        android:id="@+id/profile_image"
         android:layout_width="200dp"
         android:layout_height="300dp"
         android:src="@drawable/sherehify_logo_black"
         app:civ_border_width="2dp"
         app:civ_border_color="@color/black"/>
+    <TextView
+        android:shadowColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold|normal"
+        android:text="Greatness &amp; convenience awaits"/>
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,17 +37,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/otp_view_background">
-            <TextView
-                android:shadowColor="@color/white"
-                android:layout_marginBottom="10dp"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:textStyle="bold|normal"
-                android:text="We will collect just a few of your data"/>
+
             <TextView
                 android:shadowColor="@color/white"
                 android:layout_marginBottom="10dp"
@@ -84,15 +84,13 @@
 
 
     </androidx.cardview.widget.CardView>
-    <Button
-        android:id="@+id/btnContinueSignUp"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/button_background"
-        android:text="Continue"
-        android:backgroundTint="@color/teal_200"/>
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="30dp"
+       android:text="Continue"
+       android:textStyle="bold"/>
 
 
 

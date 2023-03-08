@@ -17,11 +17,6 @@ class MainActivity : AppCompatActivity() {
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
         transaction.add(R.id.splashcontainer, SplashScreen(),"dashmainFragment").commitAllowingStateLoss()
 
-        Handler().postDelayed({
-            transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-            transaction.replace(R.id.splashcontainer,signUp(),"signUpfragment")//last part today app crashes trying to replace the previous fragment with a new fragment
-            transaction.addToBackStack(null)
-            transaction.commit()
-        }, 5000)
+
     }
 }
