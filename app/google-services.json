@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1059813595773",
+    "project_id": "chat-dc369",
+    "storage_bucket": "chat-dc369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059813595773:android:d125e5d10359735249af14",
+        "android_client_info": {
+          "package_name": "com.innov.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059813595773-kjg5r0cnt744b2a74o0uttr8lavc8149.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innov.chat",
+            "certificate_hash": "128ede78a03f228d6e8725741741e773b349368c"
+          }
+        },
+        {
+          "client_id": "1059813595773-m0n8m3nd12khp09nksoo98hnq0jpar9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABj2UU6Dn3tZ6SDoEqgcZXCIvpLjjZCco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059813595773-m0n8m3nd12khp09nksoo98hnq0jpar9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
