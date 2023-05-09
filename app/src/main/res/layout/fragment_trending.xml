@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Trending">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="32sp"
+        android:textStyle="bold|normal"
+        android:layout_gravity="center"
+        android:text="@string/trending"
+        android:textColor="@color/black"
+        android:fontFamily="@font/archivo_black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerFire"
+        android:background="@drawable/dashboard_background"
+        tools:listitem="@layout/list_fire"/>
+
+
+</LinearLayout>

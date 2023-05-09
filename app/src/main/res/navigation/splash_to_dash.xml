@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_to_dash"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.innov.sherehify.fragments.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.innov.sherehify.fragments.signUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_otp"
+            app:destination="@id/otp" />
+    </fragment>
+    <fragment
+        android:id="@+id/otp"
+        android:name="com.innov.sherehify.fragments.otp"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" >
+        <action
+            android:id="@+id/action_otp_to_dashmain"
+            app:destination="@id/dashmain" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashmain"
+        android:name="com.innov.sherehify.fragments.Dashmain"
+        android:label="fragment_dashmain"
+        tools:layout="@layout/fragment_dashmain" />
+</navigation>

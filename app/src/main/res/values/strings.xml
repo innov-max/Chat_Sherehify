@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Chat</string>
+<
+  
+
+    <string name="app_name">Sherehify</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sherehify">Sherehify</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="entertainment">Lights, camera, action!</string>
+    <string name="trending">Trending</string>
+    <string name="home">Home</string>
+    <string name="discover">Discover</string>
+    <string name="pin">Pin</string>
+    <string name="inbox">Inbox</string>
+    <string name="me">Me</string>
+
 </resources>
